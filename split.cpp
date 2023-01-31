@@ -11,9 +11,7 @@ the function below should be the only one in this file.
 */
 
 #include "split.h"
-#include <iostream>
-using std::cout;
-using std::endl;
+
 
 
 /* Add a prototype for a helper function here if you need */
@@ -23,7 +21,7 @@ void add(Node*& in, Node*& list);
 
 void split(Node*& in, Node*& odds, Node*& evens)
 {
-  //cout << "running split" << endl;
+
 
 
   //Attempt 3
